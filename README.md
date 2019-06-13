@@ -213,7 +213,7 @@ notebook](/Sentiment_classifier.ipynb).
 After fine tuning and optimizing, the final model came out to be 81.77%
 accurate ![Best classification model](reti_test_files/figure-gfm/Clas_fit.png)
 
-After achieving a high accuracy, random predictions of the were mad with
+After achieving a high accuracy, random predictions of the were made with
 the model in order to see how well the model classifies the various
 classes of sentiment. ![Random sentiment classifications](reti_test_files/figure-gfm/Pred.png)
 
@@ -221,7 +221,7 @@ classes of sentiment. ![Random sentiment classifications](reti_test_files/figure
 
 <div class="danger">
 As seen above, the deep learning pre-trained model developed by fastai
-enable the rapid sentiment analysis of the task as it provide a fast
+enables the rapid sentiment analysis of the task as it provides a fast
 pipeline which does most of the deep learning process behind the scene
 and produces a very efficient result.
 </div>
