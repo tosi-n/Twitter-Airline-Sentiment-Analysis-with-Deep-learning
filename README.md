@@ -1,7 +1,7 @@
 Twitter Airline Sentiment Analysis (ULMfit Sentiment)
 ================
 Tosin Dairo
-MAY 18, 2019
+MAY 28, 2019
 
 ## Challenge
 
@@ -36,9 +36,10 @@ pre-trained model enables us to achieve transfer learning.
 ## Environment Setup
 
 In order to effectively execute this challenge, the following tools are
-used - R; for Documentation, Exploratory Data Analysis and Preprocessing
-using reticulate package and Python regular expressions. -Google Colab;
-in order to achieve a fast output considering time of training as a
+used 
+- R; for Documentation, Exploratory Data Analysis and Preprocessing
+using reticulate package and Python regular expressions. 
+- Google Colab; in order to achieve a fast output considering time of training as a
 factor, we adopt the use of GPU processors provided by google on colab
 notebooks.
 
@@ -197,21 +198,21 @@ d_air.to_csv('/Users/lade/Dev/myOpenSet/texts.csv', index=False)
 ```
 
 As you can see in [ULMfit model](/ULMfit.ipynb), after unfreezing and
-retrain through 10 epoch we get ![Language model fit](/IMG/LM_fit)
+retrain through 10 epoch we get ![Language model fit](reti_test_files/figure-gfm/LM_fit.png)
 
 And the learning rate of the initial fit can be visualised as ![Learning
-rate](/IMG/LM_lr)
+rate](reti_test_files/figure-gfm/LM_lr.png)
 
 In order to classify and carry out the sentiment analysis, fine tuned
 language model is stored and imported on the [Sentiment classifier
 notebook](/Sentiment_classifier.ipynb).
 
 After fine tuning and optimizing, the final model came out to be 81.77%
-accurate ![Best classification model](/IMG/Clas_fit)
+accurate ![Best classification model](reti_test_files/figure-gfm/Clas_fit.png)
 
 After achieving a high accuracy, random predictions of the were mad with
 the model in order to see how well the model classifies the various
-classes of sentiment. ![Random sentiment classifications](/IMG/Pred)
+classes of sentiment. ![Random sentiment classifications](reti_test_files/figure-gfm/Pred.png)
 
 <div class="danger">
 
