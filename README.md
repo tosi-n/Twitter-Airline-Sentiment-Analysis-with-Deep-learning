@@ -75,7 +75,7 @@ d.head()
 ### Checking for missing data
 
 Considering the goal is to fit a model for sentiment analysis, then
-visualized missing values in certain varible would be of less
+visualized missing values in certain variables would be of less
 concern.
 
 ``` python
