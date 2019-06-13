@@ -25,10 +25,12 @@ and neutral tweets.
 
 In order to attain sentiment analysis, which is a branch of Natural
 Language Processing, we adopt the use of a deep learning pretrained
-model called ULMfit. \> Why Deep Learning? Compared to other machine
+model called ULMfit. 
+> Why Deep Learning? Compared to other machine
 learning models, deep learning enables us to attain higher model
 accuracy in classification, as well as a faster output considering the
-data size. \> Why ULMfit? ULMfit is a pre-trained language model which
+data size. 
+> Why ULMfit? ULMfit is a pre-trained language model which
 was trained with the use of Wikitext dataset and fastai library, in
 order to achieve effective text classification with deep learning. This
 pre-trained model enables us to achieve transfer learning.
