@@ -198,7 +198,7 @@ d_air.to_csv('/Users/lade/Dev/myOpenSet/texts.csv', index=False)
 ```
 
 As you can see in [ULMfit model](/ULMfit.ipynb), after unfreezing and
-retrain through 10 epoch we get ![Language model fit](reti_test_files/figure-gfm/LM_fit.png)
+retraining through 10 epoch we get ![Language model fit](reti_test_files/figure-gfm/LM_fit.png)
 
 And the learning rate of the initial fit can be visualised as ![Learning
 rate](reti_test_files/figure-gfm/LM_lr.png)
@@ -214,13 +214,11 @@ After achieving a high accuracy, random predictions of the were mad with
 the model in order to see how well the model classifies the various
 classes of sentiment. ![Random sentiment classifications](reti_test_files/figure-gfm/Pred.png)
 
-<div class="danger">
-
 ## Conclusion
 
+<div class="danger">
 As seen above, the deep learning pre-trained model developed by fastai
 enable the rapid sentiment analysis of the task as it provide a fast
 pipeline which does most of the deep learning process behind the scene
 and produces a very efficient result.
-
 </div>
